@@ -1,7 +1,6 @@
 
 
 
-
 .animacionInformacionIndex{
     animation-duration: 0.4s;
     animation-name: parrafoEntraIzq;
@@ -18,6 +17,13 @@
         
         .imagenInformacion{
             padding: 2px;
+                @include tablet{
+                    height: 30vh;
+                }
+                    @include celular{
+                        height: 25vh;
+                    }
+                
             .divTextoIntroduccion{
                 padding-left: 20px;
             }
