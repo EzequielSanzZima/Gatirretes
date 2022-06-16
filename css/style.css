@@ -55,7 +55,7 @@ footer {
     display: flex;
     justify-content: center; }
     footer .redesSocialesFooter li {
-      padding-right: 5px; }
+      padding-right: 15px; }
     footer .redesSocialesFooter .redesSocialesFooterA {
       color: white; }
       footer .redesSocialesFooter .redesSocialesFooterA:hover {
@@ -122,6 +122,12 @@ footer {
       padding: 0px 0px 28px !important; } }
   .animacionInformacionIndex .imagenInformacion, .divCartasContacto .imagenInformacion {
     padding: 2px; }
+    @media screen and (max-width: 768px) {
+      .animacionInformacionIndex .imagenInformacion, .divCartasContacto .imagenInformacion {
+        height: 30vh; } }
+    @media screen and (max-width: 480px) {
+      .animacionInformacionIndex .imagenInformacion, .divCartasContacto .imagenInformacion {
+        height: 25vh; } }
     .animacionInformacionIndex .imagenInformacion .divTextoIntroduccion, .divCartasContacto .imagenInformacion .divTextoIntroduccion {
       padding-left: 20px; }
   .animacionInformacionIndex .divTextoIntroduccion p, .divCartasContacto .divTextoIntroduccion p {
@@ -205,13 +211,15 @@ footer {
   font-size: 0.95rem;
   margin: 0px; }
 
-.contactoTelefonoEmail {
-  padding: 0px 5px 0px 0px; }
-  @media screen and (max-width: 768px) {
-    .contactoTelefonoEmail {
-      flex-direction: column !important;
-      padding: 0px;
-      width: 100%; } }
+@media screen and (max-width: 768px) {
+  .contactoTelefonoEmail {
+    flex-direction: column !important;
+    padding: 0px;
+    width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .contactoTelefonoEmail .divContactoTelefonoFormulario {
+    padding-right: 0px !important; } }
 
 .form-label {
   margin-bottom: 0px; }
