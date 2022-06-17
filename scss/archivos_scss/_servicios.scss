@@ -36,6 +36,10 @@
         to   { transform: translate(-0px, 0); }    
     }
 
+    .divImagenInfPeluqueria{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     .imagenInformacionPeluqueria{
         height: 40vh;
             @include tablet{
