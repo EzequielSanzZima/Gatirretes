@@ -1,8 +1,16 @@
 # Gatirretes
 
+Este proyecto es un local ficticio de un pet-shop con peluqueria canina y felina. Es una entrega del proyecto final de CoderHouse.
 
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+## Visualización
+
+Para ver un preview del proyecto: <a href="https://ezequielsanzzima.github.io/Gatirretes-TrabajoFinal/">DEMO</a>
+
+## Tecnologia usada
+
+- HTML5/CSS
+- SCSS/SASS
+- Bootstrap
+- Git y Github
+- SEO
+
