@@ -1,16 +1,11 @@
 
-/*Header*/
+/*topHeader*/
 .topHeader{
     background-color: $colorTopSub;
-
-        .iconoTelefono{
-            width: 32px;
-            height: 32px;
-        }
 }
 
 
-
+/*header*/
 .navPaginas{
     background-color: $colorHeaderFooter;
 
@@ -95,20 +90,19 @@ footer{
             }
         }
         .footerA{
-        display: block;
-        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-        font-size: var(--bs-nav-link-font-size);
-        font-weight: var(--bs-nav-link-font-weight);
-        color: var(--bs-nav-link-color);
-        text-decoration: none;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    
-        color:white;
-        padding: 0%;
-        margin: 0%;
-            &:hover{
-                color:#BB8FCE;
-            }
+            padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+            font-size: var(--bs-nav-link-font-size);
+            font-weight: var(--bs-nav-link-font-weight);
+            color: var(--bs-nav-link-color);
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        
+            color:white;
+            padding: 0%;
+            margin: 0%;
+                &:hover{
+                    color:#BB8FCE;
+                }
         }
         .fa-paw:before{
             color: map-get($iconos, color);
@@ -123,6 +117,8 @@ footer{
         }
 }
 
+
+/*Ultimo Footer*/
 .footerFinal{
     background-color: $colorTopSub;
     color: white;

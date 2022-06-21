@@ -15,7 +15,7 @@ body{
     --bs-btn-hover-border-color: rgb(150, 71, 167);
 
 
-    transition: background-color 0.25s ease-out 25ms
+    transition: background-color 0.25s ease-out 25ms;
 }
 .btn-check:focus+.btn, .btn:focus{
     background-color: rgb(192, 76, 167);
