@@ -34,14 +34,10 @@
     }
 }
 .botonPDF{
-    text-decoration: none;
-    color: #4A235A;
-        &:hover{
-        color:#BB8FCE;
-        }
+    @extend .botonIrAlCurso;
 }
 
 /*Pagina termino y condiciones*/
 .sectionTerminoyCondiciones{
-    padding-bottom: 18.2vh;
+    padding-bottom: 16.5vh;
 }
