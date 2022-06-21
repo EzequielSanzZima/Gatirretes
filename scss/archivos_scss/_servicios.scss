@@ -19,6 +19,9 @@
     text-decoration: underline;
 }
 
+.accordion-button:focus{
+    @extend .form-control:focus;
+}
 .letraServicioAcordeon{
     font-size: map-get($textoParrafo, size);
     font-family: map-get($textoParrafo, family);

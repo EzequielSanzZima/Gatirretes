@@ -225,7 +225,7 @@ footer {
 .form-label {
   margin-bottom: 0px; }
 
-.form-control:focus {
+.form-control:focus, .accordion-button:focus {
   border-color: #c04ca7;
   box-shadow: 0 0 0 0.1rem #8f6687; }
 
@@ -391,6 +391,18 @@ body {
   --bs-btn-border-color: rgb(192, 76, 167);
   --bs-btn-hover-border-color: rgb(150, 71, 167);
   transition: background-color 0.25s ease-out 25ms; }
+
+.btn-check:focus + .btn, .btn:focus {
+  background-color: #c04ca7;
+  box-shadow: 0 0 0 0.1rem #8f6687; }
+
+.btn-check:active + .btn, .btn-check:checked + .btn, .btn.active, .btn.show, .btn:active {
+  background-color: #c04ca7;
+  box-shadow: 0 0 0 0.1rem #8f6687;
+  border-color: violet; }
+
+.btn:active:focus {
+  box-shadow: 0 0 0.2rem #8f6687; }
 
 .btn:hover {
   color: #9647a7;
