@@ -37,8 +37,7 @@
     }
 
     .divImagenInfPeluqueria{
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 15px 0px;
     }
     .imagenInformacionPeluqueria{
         height: 40vh;
@@ -47,27 +46,35 @@
             }
     }
     .divServicioTexto{ 
+        padding-right: 35px;
         font-size: 15px;
         font-family: 'Work Sans', sans-serif;
         line-height: 24px;
             @include tablet{
-                padding: 15px 48px 5px 48px!important;
+                padding: 5px 30px 5px 30px!important;
             }
     } 
 }
 .pTextoPeluqueria{
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 5px;
+        @include tablet{
+            margin-bottom: 5px;
+        }
 }
 
 .divServicioTexto ul {
-    list-style-position: inside;      
+    list-style-position: inside; 
     
 }
 
 
 
 /*Caja curso*/
+.divImagenCurso{
+    padding: 15px 0px;
+}
 .imagenInformacionCurso{
     height: 40vh;
             @include tablet{
@@ -75,17 +82,21 @@
             }
 }
 .divServicioCurso{
+    padding-left: 35px;
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
     line-height: 24px;
         @include tablet{
-            padding: 15px 48px 5px 48px!important;
+            padding: 5px 30px 5px 30px!important;
     }
     .pTextoCurso{
         padding-top: 15px;
         margin-bottom: 10px;
         font-size: 16px;
         line-height: 24px;
+            @include tablet{
+                padding-top: 0px;
+            }
     }
 }
 .divServicioCurso ul li{
