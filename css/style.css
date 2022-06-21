@@ -61,6 +61,7 @@ footer {
       footer .redesSocialesFooter .redesSocialesFooterA:hover {
         color: #BB8FCE; }
   footer .ulLinkFooter, footer .ulContactoFooter {
+    padding-left: 0px;
     list-style: none; }
     footer .ulLinkFooter li, footer .ulContactoFooter li {
       margin-bottom: 5px; }
