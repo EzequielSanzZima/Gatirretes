@@ -1,0 +1,69 @@
+body{
+    color: map-get($fontbody, color);
+    font-family: map-get($fontbody, family);
+    font-size: map-get($fontbody, size);
+    background-color: #f3f2ef;
+}
+
+
+
+
+
+.btnColor{
+    --bs-btn-bg: rgb(192, 76, 167);
+    --bs-btn-border-color: rgb(192, 76, 167);
+    --bs-btn-hover-border-color: rgb(150, 71, 167);
+
+
+    transition: background-color 0.25s ease-out 25ms
+}
+.btn-check:focus+.btn, .btn:focus{
+    background-color: rgb(192, 76, 167);
+    box-shadow: 0 0 0 0.10rem rgb(143, 102, 135);
+}
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active{
+    background-color: rgb(192, 76, 167);
+    box-shadow: 0 0 0 0.10rem rgb(143, 102, 135);
+    border-color: violet;
+}
+.btn:active:focus{
+    box-shadow: 0 0  0.2rem rgb(143, 102, 135);
+}
+.btn:hover{
+    color: rgb(150, 71, 167);   
+    background-color: white;
+}
+
+
+.whatsapp{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+        @include tablet{
+            display: none;
+        }
+}
+
+
+.titulo{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(192, 76, 167);
+}
+
+.animacionTitulo{
+    animation-duration: 0.4s;
+    animation-name: animTitulo;
+}
+@keyframes animTitulo {
+    from { font-size: 0px; }
+    to   { font-size: 40px; }    
+}
+
+::marker{
+    color:rgb(192, 76, 167);
+    font-size: 10px
+}
