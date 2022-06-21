@@ -72,12 +72,12 @@ footer{
             margin: auto;
             padding-bottom: 10px;
         }
+        .iconoFooter{
+            padding-right: 15px;
+        }
         .redesSocialesFooter{
             display: flex;
             justify-content: center;
-            li{
-                padding-right: 15px;
-            }
             .redesSocialesFooterA{
                 color: white;
                 &:hover{

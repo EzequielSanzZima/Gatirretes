@@ -51,11 +51,11 @@ footer {
     width: 120px;
     margin: auto;
     padding-bottom: 10px; }
+  footer .iconoFooter {
+    padding-right: 15px; }
   footer .redesSocialesFooter {
     display: flex;
     justify-content: center; }
-    footer .redesSocialesFooter li {
-      padding-right: 15px; }
     footer .redesSocialesFooter .redesSocialesFooterA {
       color: white; }
       footer .redesSocialesFooter .redesSocialesFooterA:hover {
@@ -309,6 +309,12 @@ footer {
 .divServicioCurso ul li {
   padding-top: 5px; }
 
+.botonPDF, .botonIrAlCurso {
+  text-decoration: none;
+  color: #c04ca7; }
+  .botonPDF:hover, .botonIrAlCurso:hover {
+    color: #BB8FCE; }
+
 .letraQuienSomosTexto {
   font-size: 14px;
   font-family: "Work Sans", sans-serif; }
@@ -358,15 +364,9 @@ footer {
     color: #4A235A;
     padding-right: 5px; }
 
-.botonPDF, .botonIrAlCurso {
-  text-decoration: none;
-  color: #4A235A; }
-  .botonPDF:hover, .botonIrAlCurso:hover {
-    color: #BB8FCE; }
-
 /*Pagina termino y condiciones*/
 .sectionTerminoyCondiciones {
-  padding-bottom: 18.2vh; }
+  padding-bottom: 16.5vh; }
 
 body {
   color: black;

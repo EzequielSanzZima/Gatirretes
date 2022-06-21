@@ -92,6 +92,11 @@
     padding-top: 5px;
 }
 .botonIrAlCurso{
+    text-decoration: none;
+    color: rgb(192, 76, 167);
+        &:hover{
+        color:#BB8FCE;
+        }
     @extend .botonPDF;
 }
 
