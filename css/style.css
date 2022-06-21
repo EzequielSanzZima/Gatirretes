@@ -1,12 +1,10 @@
 /*Maps*/
-/*Header*/
+/*topHeader*/
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;1,100&display=swap");
 .topHeader {
   background-color: #7D3C98; }
-  .topHeader .iconoTelefono {
-    width: 32px;
-    height: 32px; }
 
+/*header*/
 .navPaginas {
   background-color: #8E44AD; }
   .navPaginas .logoHeader {
@@ -66,7 +64,6 @@ footer {
     footer .ulLinkFooter li, footer .ulContactoFooter li {
       margin-bottom: 5px; }
   footer .footerA {
-    display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
@@ -84,6 +81,7 @@ footer {
   footer .ulContactoFooter li {
     margin-bottom: 5px; }
 
+/*Ultimo Footer*/
 .footerFinal {
   background-color: #7D3C98;
   color: white; }
