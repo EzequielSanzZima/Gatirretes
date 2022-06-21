@@ -264,29 +264,36 @@ footer {
   to {
     transform: translate(0px, 0); } }
   .animacionServicioIzquierda .divImagenInfPeluqueria {
-    padding-top: 15px;
-    padding-bottom: 15px; }
+    padding: 15px 0px; }
   .animacionServicioIzquierda .imagenInformacionPeluqueria {
     height: 40vh; }
     @media screen and (max-width: 768px) {
       .animacionServicioIzquierda .imagenInformacionPeluqueria {
         height: 330px; } }
   .animacionServicioIzquierda .divServicioTexto, .animacionServicioIzquierda .textoQuienSomos ul li::marker, .textoQuienSomos ul .animacionServicioIzquierda li::marker {
+    padding-right: 35px;
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
     line-height: 24px; }
     @media screen and (max-width: 768px) {
       .animacionServicioIzquierda .divServicioTexto, .animacionServicioIzquierda .textoQuienSomos ul li::marker, .textoQuienSomos ul .animacionServicioIzquierda li::marker {
-        padding: 15px 48px 5px 48px !important; } }
+        padding: 5px 30px 5px 30px !important; } }
 
 .pTextoPeluqueria {
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  margin-bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .pTextoPeluqueria {
+      margin-bottom: 5px; } }
 
 .divServicioTexto ul, .textoQuienSomos ul li::marker ul {
   list-style-position: inside; }
 
 /*Caja curso*/
+.divImagenCurso {
+  padding: 15px 0px; }
+
 .imagenInformacionCurso {
   height: 40vh; }
   @media screen and (max-width: 768px) {
@@ -294,17 +301,21 @@ footer {
       height: 330px; } }
 
 .divServicioCurso {
+  padding-left: 35px;
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
   line-height: 24px; }
   @media screen and (max-width: 768px) {
     .divServicioCurso {
-      padding: 15px 48px 5px 48px !important; } }
+      padding: 5px 30px 5px 30px !important; } }
   .divServicioCurso .pTextoCurso {
     padding-top: 15px;
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 24px; }
+    @media screen and (max-width: 768px) {
+      .divServicioCurso .pTextoCurso {
+        padding-top: 0px; } }
 
 .divServicioCurso ul li {
   padding-top: 5px; }
