@@ -3,6 +3,7 @@ body{
     font-family: map-get($fontbody, family);
     font-size: map-get($fontbody, size);
     background-color: #f3f2ef;
+    overflow-x: hidden;
 }
 
 

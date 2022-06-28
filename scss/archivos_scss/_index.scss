@@ -49,6 +49,7 @@
     font-family: map-get($textoParrafo, family);
     font-size: 15px;
     @include tablet{
+        padding-top: 16px;
         font-size: 14px;
     }
 }
